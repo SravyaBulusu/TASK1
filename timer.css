@@ -1,0 +1,25 @@
+body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    /* background-image: linear-gradient(to right#77E4C8,#478CCF,#3DC2EC,); */
+    margin: 0;
+    padding: 0;
+}
+.hours,.minutes,.seconds{
+    height:100px;
+    width:100px;
+    background-color: #36C2CE;
+    border-radius: 10px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    font-size: 100px;
+    color: skyblue;
+}

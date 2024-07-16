@@ -1,0 +1,182 @@
+body{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.parent{
+    height:50%;
+    width:25%;
+    position: relative;
+}
+.parent:hover .child{
+    border:2px solid red;
+    box-shadow: 2px 2px 5px  red;
+}
+.parent:hover .child1{
+    border:2px solid green;
+    box-shadow: 2px 2px 5px green;
+}
+.parent:hover .child2{
+    border:2px solid yellow;
+    box-shadow: 2px 2px 5px  yellow;
+
+}
+.child{
+    height:99%;
+    width:99%;
+    border: 2px solid white;
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 30%;
+    position: absolute;
+    transform: rotateX(360deg);
+
+}
+@keyframes animation1{
+    0%{
+        border-radius: 40%;
+    }
+    20%{
+        border-top-left-radius: 50%;
+    }
+    40%{
+        border-top-right-radius: 50%;
+    }
+    80%{
+        border-bottom-left-radius: 50%;
+    }
+    100%{
+        border-bottom-right-radius: 50%;
+    }
+}
+
+.child1{ 
+    height:95%;
+    width:95%;
+    border: 2px solid white;
+    animation-name: animation2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 30%;
+    position: absolute;
+
+}
+@keyframes animation2{
+    0%{
+        border-radius: 40%;
+    }
+    20%{
+        border-bottom-left-radius: 100%;
+       
+    }
+    40%{
+        border-top-right-radius: 100%;
+    }
+    80%{
+        border-top-left-radius: 100%;
+    }
+    100%{
+        border-bottom-right-radius: 100%;
+    }
+
+}
+.child2{ 
+    height:91%;
+    width:91%;
+    border: 2px solid white;
+    animation-name: animation2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 30%;
+    position: absolute;
+
+}
+@keyframes animation2{
+    0%{
+        border-radius: 40%;
+    }
+    20%{
+        border-bottom-right-radius: 50%;
+       
+    }
+    40%{
+        border-top-left-radius: 50%;
+    }
+    80%{
+        border-bottom-left-radius: 50%;
+    }
+    100%{
+        
+        border-top-right-radius: 50%;
+    }
+
+}
+.log{
+    position: absolute;
+    color: white;
+    left:37%;
+    top:18%;
+    font-size: 30px;
+}
+.user{
+    height:10%;
+    width:45%;
+    position: absolute;
+    left:25%;
+    top:32%;
+    border-radius: 50px;
+}
+input[type=text]{
+    height:100%;
+    width:100%;
+    border-radius:50px;
+}
+.pass{
+    height:10%;
+    width:45%;
+    position: absolute;
+    left:25%;
+    top:45%;
+    border-radius: 50px;
+
+}
+.sign{
+    height:10%;
+    width:45%;
+    position: absolute;
+    left:25%;
+    top:60%;
+    border-radius: 50px;
+}
+.sign button{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(to right,#FF0080,orange,yellow);
+    border-radius: 50px;
+
+}
+.word{
+    position: absolute;
+    height:7%;
+    width:70%;
+    bottom:22%;
+    left:15%;
+}
+.forget{
+    height:80%;
+    width:20%;
+    float: left;
+}
+.up{
+    height:100%;
+    width:20%;
+    float:right;
+}
+.word p{
+    color: white;
+}
+

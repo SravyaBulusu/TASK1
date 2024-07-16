@@ -1,0 +1,85 @@
+gthub-Sravya@0104
+
+to create files in GitHub:
+cd/
+cd d
+mkdir project
+cd project
+touch a b c d
+git init
+git add a b c 
+git status
+git config --global user.email "your@mail.com"
+git config --global user.name "username"
+git commit -m "New code files"
+git branch -M main
+git remote add origin (url of remote repository)
+git push origin main
+
+
+to edit text in file created in GitHub:
+ls
+vi a
+git status  
+git add .
+git commit -m "changes are done"
+git push origin main
+
+
+
+from remote repository to local repository:
+cd..
+mkdir pull
+cd pull
+git init
+git pull or clone (url)
+ls
+cd projectdemo
+ls
+
+push request:
+cd ..
+cd..
+cd project
+touch aa bb
+git status
+git add .
+git status
+git branch -M coders
+git commit -m "new"
+git remote add origin (url)
+git push origin coders
+
+merging req:
+in GitHub
+click on compare and pull req
+write description and click on create req button
+in pull req then click new 
+click on merge req and commit req
+open code and check whether all the files are merged or present in both the branches(main and coders)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

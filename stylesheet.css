@@ -1,0 +1,202 @@
+/*.mydiv{
+    /*border-bottom-width: 5px;
+    border-top-width: 10px;
+    border-right-width: 5px;
+    border-left-width: 10px 5px;
+
+    border-bottom-style: dashed;
+    border-top-style: dotted;
+    border-left-style: double;
+    border-right-style: groove;
+
+    border-bottom-color: aqua;
+    border-top-color: black;
+    border-left-color: pink;
+    border-right-color: blue;*/
+    /*border-width:20px 30px 40px;
+    border-style: solid;
+    border-color: aqua;*/
+
+
+    /*max-width:900px;
+    min-width: 600px;
+    width:fit-content;
+    /*height:100svh;*/
+    /*border-style: solid;
+    border-color: red;
+}
+/*.parent{
+    height:600px;
+    width:600px;
+    border:2px solid black;
+    padding:40px;
+    margin:10px;
+}
+.child{
+    height:200px;
+    width:200px;
+    
+    border:3px solid red;
+
+}*/
+
+/*.parent{/*box model
+    height:600px;
+    width:600px;
+    margin:40px;
+    border:2px solid black;
+    padding:50px;
+}*/
+
+/*.parent{
+    height:500px;
+    width:500px;
+    border:5px solid black;
+    /*border-radius: 100px;*/
+    /*border-top-left-radius: 100px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 250px;
+    border-radius:1px black;
+    
+}
+
+.parent img{
+    margin:40px;
+    border-radius:10px 100px 10px 100px;
+    
+}*/
+
+.shape{
+    height: 600px;
+    width:600px;
+    border:3px solid black;
+    margin-top: 100px;
+    margin-bottom:200px;
+    margin-left:400px;
+}
+
+
+.circle{
+    height:400px;
+    width:400px;
+    border:3px solid black;
+    margin:90px;
+    border-radius:200px 200px 200px 200px;
+    background-color: pink;
+}
+
+.eye
+{
+    height:150px;
+    width:310px;   
+    margin-top: 70px;
+    margin-left: 40px;
+
+}
+
+.left{
+    height:150px;
+    width:150px;
+    border: 3px solid black;
+    border-radius: 0px 80px 0px 80px;
+    background-color: white;
+}
+
+.right{
+    height:150px;
+    width:150px;
+    float: right;
+    border-radius: 80px 0px 80px 0px;
+    border: 3px solid black;
+    background-color: white;
+}
+.dot{
+    height:50px;
+    width:50px;
+    border:3px solid black;
+    border-radius: 50px 50px 50px 50px;
+    margin:50px;
+    background-color: black;
+}
+.mouth{
+    height:100px;
+    width:230px;
+    border: 3px solid black;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+
+
+/*test{
+    height:100%;
+    width:100%;
+    border:3px solid black;
+    /*background-color: red;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 200px;
+    background-image: url("./images/image.jpeg");
+    background-size: 100% 100%;
+    color: transparent;
+    background-clip: text;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+/*.parent{
+    width:500px;
+    height:500px;
+    border:3px solid black;
+    position:relative;
+    
+}*/
+
+/*relative*/
+/*.child{
+    height:200px;
+    width:200px;
+    border: 3px solid black;
+    position:relative;
+    bottom:0;
+    right:0;
+
+}*/
+
+
+/*absolute*/
+/*.child{
+    height:200px;
+    width:200px;
+    border: 3px solid black;
+    position:absolute;
+    bottom:0;
+    right:0;
+}*/
+
+
+
+/*fixed*/
+/*.child{
+    height:200px;
+    width:200px;
+    border: 3px solid black;
+    background-color: aqua;
+    position:fixed;
+    bottom:0;
+    right:0;
+}*/
+
+/*sticky*/
+/*.child{
+    height:100px;
+    width:1500px;
+    border:3px solid black;
+    position:sticky;
+    top:0;
+    background-color: violet; 
+}*/
+

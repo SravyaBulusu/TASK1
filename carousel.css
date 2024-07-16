@@ -1,0 +1,54 @@
+body{
+    /* height:100svh; */
+    width:100%;
+    /* display: flex;
+    justify-content: center; */
+}
+.parent{
+    /* width:900px !important; */
+    display: flex !important;
+    /* border:1px solid  red; */
+    align-items: center;
+    position: relative;
+    
+}
+.child{
+    /* width:100px ; */
+    height:200px !important;
+    /* border:1px solid black; */
+    /* background-color: red; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+button{
+    width: fit-content;
+}
+li button{
+    display: none;
+}
+.slick-dots{
+    display:flex;
+    gap:10px;
+    position: absolute;
+    bottom:-50px;
+    left:50%;
+}
+.slick-active{
+    color: red;
+}
+.child1{
+    width:150px;
+    height:200px;
+    
+}
+.child1 img{
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+}
+.mybutton{
+    height:30px;
+    border-radius: 50%;
+}
+

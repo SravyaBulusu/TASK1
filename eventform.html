@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <script src="./eventform.js"></script>
+    <link rel="stylesheet" href="eventform.css">
+</head>
+
+<body>
+    <div class="child1">
+    <form>
+        <div class="child11">
+        <label class="l1">First name:</label><br><br><br><br>
+        <input type="text" placeholder="enter firstname" onchange="{firstname(event)}" /></div><br><br>
+        <label>Second name:</label>
+        <input type="text" placeholder="enter second name" onchange="{secondname(event)}" /><br><br>
+        <label>DOB</label>
+        <input type="date" onchange="{today(event)}"><br><br>
+        <label>Father Name</label>
+        <input type="text" onchange="{fathername(event)}"><br><br>
+        <label>Mother Name</label>
+        <input type="text" onchange="{mothername(event)}"><br><br>
+        <label>Address</label>
+        <textarea onchange="{address(event)}"></textarea><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="test" onchange="{male(event)}" />
+        <label>male</label>
+        <input type="radio" name="test" onchange="{female(event)}" />
+        <label>female</label><br><br>
+        <label>certifications</label>
+        <textarea onchange="{certi(event)}"></textarea><br><br>
+        <label>Academic Details:</label>
+        <table border="2px">
+            <tr>
+                <th>Qualification</th>
+                <th>Year of passing</th>
+                <th>percentage</th>
+                <th>place</th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td><input type="text" /></td>
+                <td><input type="number" /></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>INTER</td>
+                <td><input type="text" /></td>
+                <td><input type="number" /></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td><input type="text" /></td>
+                <td><input type="number" /></td>
+                <td><input type="text" /></td>
+            </tr>
+        </table><br><br>
+        <label>skills</label>
+        <textarea onchange="{skill(event)}"></textarea><br><br>
+        <label>Hobbies</label>
+        <textarea onchange="{hobbi(event)}"></textarea><br><br>
+        <label>Profile pic</label>
+        <input type="file" /><br><br>
+        <label>Badges</label>
+        <textarea onchange="{badge(event)}"></textarea><br><br>
+        <label>Description</label>
+        <textarea onchange="{des(event)}"></textarea><br><br>
+    </form>
+    <input type="submit" onclick="{submit(event)}" />
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Navigation</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+        }
+
+        .movable {
+            background-color: yellow;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <button id="createTableBtn">Create Table</button>
+    <div id="tableContainer"></div>
+    <div id="controls" style="display: none;">
+        <button id="topBtn">Top</button>
+        <button id="bottomBtn">Bottom</button>
+        <button id="leftBtn">Left</button>
+        <button id="rightBtn">Right</button>
+    </div>
+    <script>
+        document.getElementById('createTableBtn').addEventListener('click', createTable);
+
+        let currentRow = 0;
+        let currentCol = 0;
+        let n = 0;
+
+        function createTable() {
+            n = parseInt(prompt("Enter the number of rows and columns:"), 10);
+            if (isNaN(n) || n <= 0) {
+                alert("Please enter a valid number greater than 0");
+                return;
+            }
+
+            const tableContainer = document.getElementById('tableContainer');
+            tableContainer.innerHTML = ''; // Clear previous table
+            const table = document.createElement('table');
+            const tbody = document.createElement('tbody');
+
+            for (let i = 0; i < n; i++) {
+                const row = document.createElement('tr');
+                for (let j = 0; j < n; j++) {
+                    const cell = document.createElement('td');
+                    row.appendChild(cell);
+                }
+                tbody.appendChild(row);
+            }
+
+            table.appendChild(tbody);
+            tableContainer.appendChild(table);
+
+            // Set initial position of the element
+            const initialCell = table.rows[currentRow].cells[currentCol];
+            const div = document.createElement('div');
+            div.className = 'movable';
+            initialCell.appendChild(div);
+
+            // Show control buttons
+            document.getElementById('controls').style.display = 'block';
+        }
+
+        function moveElement(newRow, newCol) {
+            const table = document.querySelector('table');
+            const currentCell = table.rows[currentRow].cells[currentCol];
+            const newCell = table.rows[newRow].cells[newCol];
+            const div = currentCell.querySelector('.movable');
+            newCell.appendChild(div);
+            currentRow = newRow;
+            currentCol = newCol;
+        }
+
+        document.getElementById('topBtn').addEventListener('click', () => {
+            if (currentRow > 0) moveElement(currentRow - 1, currentCol);
+        });
+
+        document.getElementById('bottomBtn').addEventListener('click', () => {
+            if (currentRow < n - 1) moveElement(currentRow + 1, currentCol);
+        });
+
+        document.getElementById('leftBtn').addEventListener('click', () => {
+            if (currentCol > 0) moveElement(currentRow, currentCol - 1);
+        });
+
+        document.getElementById('rightBtn').addEventListener('click', () => {
+            if (currentCol < n - 1) moveElement(currentRow, currentCol + 1);
+        });
+    </script>
+</body>
+</html>

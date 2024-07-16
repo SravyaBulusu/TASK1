@@ -1,0 +1,157 @@
+/*body{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.parent{
+    height:100%;
+    width:80%;
+    background-color: blue;
+    border-radius: 500px;
+
+}
+.solar{
+    height:100%;
+    width:70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    animation-name: my_animation;
+    animation-duration: 1s;
+    background-color: green;
+    animation-name: my_animation;
+    animation-duration: 1s;
+   
+    
+}
+.grid{
+    height:50%;
+    width:50%;
+    border:2px solid black;
+    background-color: red;
+    border-radius: 500px; 
+}
+.moon{
+    height:100%;
+    width:80%;
+    background-color: white;
+    border-radius: 500px; 
+
+}
+@keyframes my_animation{
+    0%{
+            align-self: start;
+            justify-self: start;
+
+    }
+    100%{
+            align-self: center;
+            justify-self: center;
+            background-color: blue;
+            
+    }
+}*/
+/*body{
+    height:100svh;
+    width:100%;
+}
+.black{
+    height:90%;
+    width:60%;
+    background-color: black;
+    margin-left: 20%;
+    display: flex;
+    position:relative;
+    animation-name: my_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.earth{
+    height:30%;
+    width:20%;
+    border-radius: 50%;
+    background-color: blue;
+    position:absolute;
+    top:30%;
+    left:40%;
+}
+.moon{
+    height:20%;
+    width:15%;
+    background-color: white;
+    border-radius: 50%;
+}
+@keyframes my_animation{
+    0%{
+        justify-content: start;
+        align-items: start;
+    }
+    10%{
+        justify-content: start;
+        align-items: center;
+    }
+    20%{
+        justify-content: start;
+        align-items: end;
+    }
+    30%{
+        justify-content: center;
+        align-items: end;
+    }
+    40%{
+        justify-content: end;
+        align-items: end;
+    }
+    50%{
+        justify-content: end;
+        align-items: center;
+    }
+    70%{
+        justify-content: end;
+        align-items: start;
+    }
+    80%{
+        justify-content: center;
+        align-items: start;
+    }
+}*/
+body{
+    height:100%;
+    width:100%;
+    background-color: black;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.earth{
+    height:30%;
+    width:20%;
+    border-radius: 50%;
+    background-image: url("./images/image54.jpg");
+    background-size: 100% 100%;
+    position:absolute;
+    top:30%;
+    left:40%;
+}
+.moon{
+    height:20%;
+    width:15%;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: my_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes my_animation{
+    0%{
+        transform: rotate(0deg) translate(200px);
+    }
+    100%{
+        transform: rotate(360deg) translate(200px);
+
+    }
+}

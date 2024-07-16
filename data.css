@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to right,#4158D0,#C850C0,#FFCC70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+}
+
+
+table{
+    border:2px solid #FFAF45;
+    border-radius: 10px;
+}
+table th{
+    background-color:#FFAF45;
+    height:10%;
+    width:40%;
+    font-size:20px;
+}
+th:hover{
+    background-color: #C850C0;
+}
+
+table td{
+
+    background-color: white;
+    height:40%;
+    width:30%;
+    font-size: 20px;
+    
+
+}
+td:hover{
+    background-color: #4158D0;
+}
+
+#show{
+    font-size: 30px;
+    font-weight: bold;
+    color: #C850C0;
+    position:absolute;
+    background-color: white;
+    left:43%;
+    top:28%;
+    height:8%;
+    width:10%;
+    border:2px solid  blue;
+    border-radius: 10px;
+}
+#show:hover{
+    background-color: #4158D0;
+    color: #FFAF45;
+    font-weight: bold;
+}
+#val{
+    background-image:linear-gradient( #C850C0 ,#FFAF45);
+    height:10%;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#val1{
+    background-image: linear-gradient( #C850C0,#4158D0);
+    font-size: 20px;
+    border-radius: 10px;
+}

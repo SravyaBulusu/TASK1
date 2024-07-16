@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="./style.js"></script>
+    </head>
+    <body>
+        <div class="parent">
+            <h1>CURRICLUM VITAE</h1>
+            <div class="first">
+                <label class="l1">First name:</label><br><br>
+                <input type="text" placeholder="enter firstname" onchange="{firstname(event)}" />
+            </div><br>
+            <div class="first">
+                <label class="l1">Second name:</label><br><br>
+                <input type="text" placeholder="enter second name" onchange="{secondname(event)}" />
+            </div><br>
+            <div class="first">
+                <label class="l1">DOB</label><br><br>
+                <input type="date" onchange="{today(event)}">
+            </div><br>
+            <div class="first">
+                <label class="l1">Father Name</label><br><br>
+                <input type="text" onchange="{fathername(event)}">
+            </div><br>
+            <div class="first">
+                <label class="l1">Mother Name</label><br><br>
+                <input type="text" onchange="{mothername(event)}">
+            </div><br>
+            <div class="first">
+            <label class="l1">Address</label><br>
+            <textarea onchange="{address(event)}"></textarea><br><br>
+            </div><br>
+            <div class="first"><br><br>
+            <label class="l1">Gender:</label>
+            <input type="radio" name="test" onchange="{male(event)}" />
+            <label class="l1">male</label>
+            <input type="radio" name="test" onchange="{female(event)}" />
+            <label class="l1">female</label><br><br></div> <br>
+            <div class="first">
+            <label class="l1">Certifications</label><br>
+            <textarea onchange="{certi(event)}"></textarea><br><br></div><br>
+            <div class="second">
+            <label class="l1">Academic Details:</label><br>
+        <table border="2px">
+            <tr>
+                <th>Qualification</th>
+                <th>Year of passing</th>
+                <th>percentage</th>
+                <th>place</th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td><input type="text" /></td>
+                <td><input type="number" /></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>INTER</td>
+                <td><input type="text" /></td>
+                <td><input type="number" /></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td><input type="text" /></td>
+                <td><input type="number" /></td>
+                <td><input type="text" /></td>
+            </tr>
+        </table></div><br>
+        <div class="first">
+        <label class="l1">skills</label><br>
+        <textarea onchange="{skill(event)}"></textarea><br><br></div><br>
+        <div class="first">
+        <label class="l1">Hobbies</label><br>
+        <textarea onchange="{hobbi(event)}"></textarea><br><br></div><br>
+        <div class="first">
+        <label class="l1">Profile pic</label><br>
+        <input type="file" /><br><br></div><br>
+        <div class="first">
+        <label class="l1">Badges</label><br>
+        <textarea onchange="{badge(event)}"></textarea><br><br></div><br>
+        <div class="first">
+        <label class="l1">Description</label><br>
+        <textarea onchange="{des(event)}"></textarea><br><br></div>
+        <input type="submit" onclick="{submit(event)}" />
+        </div>
+    </body>
+</html>

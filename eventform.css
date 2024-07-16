@@ -1,0 +1,22 @@
+body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    height:1000px;
+    width:60%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child11{
+    height:20%;
+    width:100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

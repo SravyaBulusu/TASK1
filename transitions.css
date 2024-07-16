@@ -1,0 +1,18 @@
+body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height:30%;
+    width:20%;
+    background-color: yellow;
+    transition: height,background-color 2s,2s linear,linear 10s,10s;
+}
+.parent:hover{
+    height:50%;
+    /*width:40%;*/
+    background-color: blue;
+}

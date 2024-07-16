@@ -1,0 +1,86 @@
+<!--<html>
+    <head>
+        <title>SOLAR SYSTEM</title>
+        <link rel="stylesheet" href="solarsystem.css">
+    </head>
+    <body>
+        <div class="solar">
+            <div class="grid"><div class="moon"></div></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"><div class="parent"></div></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+            <div class="grid"></div>
+        </div>
+    </body>
+</html>-->
+<!--<html>
+    <head>
+        <title>SOLAR</title>
+        <link rel="stylesheet" href="solarsystem.css">
+    </head>
+    <body>
+        <div class="black">
+            <div class="earth"></div>
+            <div class="moon"></div>
+        </div>
+    </body>
+</html>-->
+<html>
+    <head>
+        <style>
+            .parent{
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-image: url("./images/image55.jpg");
+                background-size: 100% 100%;
+            }
+            .earth{
+                width:18%;
+                height:40%;
+                border-radius: 100%;
+                background-image: url("./images/image54.jpg");
+                background-size: 100% 100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .moon{
+                width:7%;
+                height:15%;
+                background-color: white;
+                border-radius: 100%;
+                position:absolute;
+                left:46%;
+                animation-name: rotate;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                background-image: url("moon.jpg");
+                background-size: 100% 100%;
+    
+            }
+            @keyframes rotate{
+                0%{
+                    transform: rotate(0deg) translate(250px);
+                }
+                100%{
+                    transform: rotate(360deg) translate(250px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="earth">
+                <div class="moon"></div>
+            </div>
+            
+        </div>
+    </body>
+</html>

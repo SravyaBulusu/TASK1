@@ -1,0 +1,427 @@
+/*.parent{
+    list-style-type: none;
+}
+.parent li::after{
+    content:"sravya";
+}*/
+/* .parent{
+    height:300px;
+    width:300px;
+    background-color: blue;
+}
+.parent::after{
+    content:"hfkrrjinortoiroirjgirhiugruoirg";
+    height:500px;
+    background-color: yellow;
+   
+} */
+ /*body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main{
+    height:10%;
+    width:10%;
+ }
+ button{
+    height: 100%;
+    width:100%;
+    position: relative;
+
+ }
+ button::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width:100%;
+    height:100%;
+    top:0;
+    left:200px;
+ }
+ button::after{
+    content: "";
+    position: absolute;
+    background-color: green;
+    width:100%;
+    height:100%;
+    top:0;
+    left:400px
+ }
+
+button:hover::before{
+    background-color: black;
+}
+button:hover::after{
+    background-color: yellow;
+
+}*/
+/* body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main{
+    height:10%;
+    width:10%;
+ }
+ button{
+    height: 100%;
+    width:100%;
+    position: relative;
+    background-color: white;
+    border:2px solid #FF0080;
+    color: #FF0080;
+    font-size: 30px;
+    border-radius: 25px;
+    overflow: hidden;
+    transition:color 1s linear 1s;
+ }
+ button:hover{
+    color: white;
+    z-index:9999;
+ }
+ button::before{
+    content: "";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: #FF0080;
+    border-radius: 25px;
+    left:200px;
+    top:0px;
+    transition:left 1s linear 0s;
+}
+button:hover::before{
+    left:0;
+    z-index:-9999;
+}
+ */
+ /* body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main{
+    height:10%;
+    width:20%;
+ }
+ button{
+    height: 100%;
+    width:100%;
+    position: relative;
+    background-color: white;
+    border:2px solid #FF0080;
+    color: #FF0080;
+    font-size: 20px;
+
+    transition:color 1s linear 1s;
+    transform: skew(30deg);
+ }
+ p{
+    transform: skew(-30deg);
+
+ }
+ button:hover{
+    color: white;
+    z-index:9999;
+ }
+ button::before{
+    content: "";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: #FF0080;
+    left:350px;
+    top:0px;
+    transition:left 1s linear 0s;
+    transform: skew(10deg);
+    transform: rotateX(10deg);
+}
+button:hover::before{
+    left:0;
+    z-index:-9999;
+} */
+/*body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main{
+    height:10%;
+    width:20%;
+ }
+ button{
+    height: 100%;
+    width:100%;
+    position: relative;
+    background-color: white;
+    border:2px solid #FF0080;
+    color: #FF0080;
+    font-size: 20px;
+    overflow: hidden;
+
+    transition:color 1s linear 1s;
+    transform: skew(30deg);
+ }
+ p{
+    transform: skew(-30deg);
+
+ }
+ button:hover{
+    color: white;
+    z-index:9999;
+ }
+ button::before{
+    content: "";
+    position:absolute;
+    height:100%;
+    width:50%;
+    background-color: #FF0080;
+    left:350px;
+    top:0px;
+    transition:left 1s linear 0s;
+    transform: skew(10deg);
+    transform: rotateX(10deg);
+    color: yellow;
+}
+button:hover::before{
+    left:50%;
+    z-index:-9999;
+}
+
+button::after{
+    content: "";
+    position:absolute;
+    height:100%;
+    width:50%;
+    background-color: blue;
+    left:-200px;
+    top:0px;
+    transition:left 1s linear 0s;
+    transform: skew(10deg);
+    transform: rotateX(10deg);
+}
+button:hover::after{
+    left:0;
+    z-index:-9999;
+}*/
+/*body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .main{
+    height:30%;
+    width:20%;
+ }
+ button{
+    height: 100%;
+    width:100%;
+    position: relative;
+    background-color: white;
+    border:2px solid #FF0080;
+    color: #FF0080;
+    font-size: 30px;
+    transition:color 1s linear 1s;
+    overflow: hidden;
+ }
+ p{
+    transform: skew(-30deg);
+
+ }
+ button:hover{
+    color: white;
+ }
+ button::before{
+    content: "";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-image: url("https://t3.ftcdn.net/jpg/02/39/06/68/360_F_239066841_TGuyjQRJuQDDML5btQq9jQszX57cQUpk.jpg");
+    background-size: 100% 100%;
+    left:450px;
+    top:0px;
+    transition:left 1s linear 0s;
+}
+button:hover::before{
+    left:0;
+}*/
+
+
+/*body{
+   height:100svh;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+   height:10%;
+   width:10%;
+}
+button{
+   height: 100%;
+   width:100%;
+   position: relative;
+   background-color: white;
+   border:2px solid #FF0080;
+   color: #FF0080;
+   font-size: 30px;
+   border-radius: 25px;
+   transition:color 1s linear 1s;
+   overflow: hidden;
+}
+button:hover{
+   color: white;
+   z-index:9999;
+}
+button::before{
+   content: "";
+   position:absolute;
+   height:100%;
+   width:100%;
+   background-color: #FF0080;
+   border-radius: 25px;
+   left:0px;
+   bottom:-100px;
+   transition:bottom 1s linear 0s;
+}
+button:hover::before{
+   bottom:0;
+   z-index:-9999;
+}
+button::after{
+   content: "";
+   position:absolute;
+   height:100%;
+   width:100%;
+   background-color: blue;
+   border-radius: 25px;
+   right:200px;
+   top:0px;
+   transition:right 1s linear 1s;
+}
+button:hover::after{
+   right:0;
+   z-index:-9999;
+} */
+
+body{
+   height:100svh;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+   height:50%;
+   width:50%;
+}
+button{
+   height: 100%;
+   width:100%;
+   position: relative;
+   background-image:url("./images/image49.jpg");
+   background-size: 100% 100%;
+   border:2px solid #FF0080;
+   color: #FF0080;
+   font-size: 20px;
+   overflow: hidden;
+
+   transition:color 1s linear 1s;
+}
+button:hover{
+   color: white;
+   z-index:9999;
+}
+button::before{
+   content: "";
+   position:absolute;
+   height:100%;
+   width:50%;
+   background-color: #FF0080;
+   left:0px;
+   top:0px;
+   transition:left 1s linear 0s;
+   color: yellow;
+}
+button:hover::before{
+   left:50%;
+   z-index:-9999;
+} 
+
+/*body{ 
+   height:100svh;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main{
+   height:10%;
+   width:10%;
+}
+button{
+   height: 100%;
+   width:100%;
+   position: relative;
+   background-color: white;
+   border:2px solid #FF0080;
+   color: #FF0080;
+   font-size: 30px;
+   border-radius: 25px;
+   transition:color 1s linear 1s;
+}
+button:hover{
+   color: red;
+   z-index:9999;
+}
+button::before{
+   content: "";
+   position:absolute;
+   height:100%;
+   width:100%;
+   left:-5px;
+   top:-5px;
+   border:2px solid solid red;
+   border-radius: 25px;
+   transition:left 1s linear 0s;
+   animation-name: anime;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+button:hover::before{
+   left:0;
+   z-index:-9999;
+}
+@keyframes anime{
+   0%{
+      border:5px solid red;
+   }
+   20%{
+      border:5px solid green;
+   }
+   40%{
+      border:5px solid blue;
+   }
+   60%{
+      border:5px solid yellow;
+   }
+   80%{
+      border:5px solid pink;
+   }
+   100%{
+      border:5px solid violet;
+   }
+} */

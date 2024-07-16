@@ -1,0 +1,86 @@
+.par{
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+.div1{
+    height: 50%;
+    width:100%;
+    /*background-color: orange;*/
+    background-image: url("./images/image47.jpg");
+    background-size: 100% 100%;
+    animation-name: col;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.div2{
+    height: 50%;
+    width:100%;
+    /*background-color: black;*/
+    background-image: url("./images/image48.jpg");
+    background-size: 100% 100%;
+    animation-name: col1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+.moon{
+    width: 11%;
+    height: 25%;
+    border-radius: 50%;
+    background-image:linear-gradient(grey,white,darkgrey,whitesmoke);
+    border:1px solid grey;
+    box-shadow: 2px 2px 6px grey;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 11%;
+    height: 25%;
+    border-radius: 50%;
+    background-image: linear-gradient(red,yellow,orange);
+    border:1px solid lightgoldenrodyellow;
+    box-shadow: 2px 2px 5px yellow;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    animation-name: rotate1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg) translateX(200px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(200px);
+    }
+}
+@keyframes rotate1{
+    0%{
+        transform: rotate(0deg) translateX(-200px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(-200px);
+    }
+}
+@keyframes col{
+    from{
+        background-image: url("./images/image47.jpg");
+    }
+    to{
+        background-image: url("./images/image48.jpg");
+    }
+}
+@keyframes col1{
+    from{
+        background-image: url("./images/image48.jpg");
+    }
+    to{
+        background-image: url("./images/image47.jpg");
+    }
+}

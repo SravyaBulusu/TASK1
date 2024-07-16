@@ -1,0 +1,132 @@
+body{
+    height:100svh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(pink,lightblue)
+}
+.parent{
+    height:80%;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.parent img{
+    height:80%;
+    width:45%;
+    border: 10px solid pink;
+    box-shadow: 2px 2px 5px rgb(255, 0, 179);
+    border-radius:50% ;
+}
+.hours{
+    height:16%;
+    width:1%;
+    background-image: linear-gradient(grey,white);
+    border:1px solid yellow;
+    position: absolute;
+    top:35%;
+    left:49.7%;
+    animation-name: animation3;
+    animation-duration:43200s;
+    animation-delay: 3600s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation3{
+    0%{
+        transform: rotatex(0deg) translateX(0px);
+        transform-origin:100% 100%;
+    }
+    100%{
+        transform: rotate(360deg) translateX(0px);
+        transform-origin: 100% 100%;
+    }
+}
+.minutes{
+    height:25%;
+    width:1%;
+    background-image: linear-gradient(grey,white);
+    border:1px solid green;
+    position: absolute;
+    top:26%;
+    left:49.7%;
+    animation-name:animation2;
+    animation-duration:3600s;
+    animation-delay:60s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation2{
+    0%{
+        transform: rotatex(0deg) translateX(0px);
+        transform-origin:100% 100%;
+    }
+    100%{
+        transform: rotate(360deg) translateX(0px);
+        transform-origin: 100% 100%;
+    }
+}
+.seconds{
+    height:30%;
+    width:0.5%;
+    background-image: linear-gradient(grey,white);
+    border:1px solid red;
+    position:absolute;
+    top:21%;
+    left:49.9%;
+    animation-name: animation1;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation1{
+    0%{
+        transform: rotatex(0deg) translateX(0px);
+        transform-origin:100% 100%;
+    }
+    100%{
+        transform: rotate(360deg) translateX(0px);
+        transform-origin: 100% 100%;
+    }
+}
+/*.seconds{
+    height:40%;
+    width:5%;
+    position:absolute;
+    top:23%;
+    left:49%;
+    animation-name: animation1;
+    animation-duration: 2s;
+    background-color: black;
+}
+@keyframes animation1{
+    0%{
+        transform: rotatex(0deg) translateX(0px);
+        transform-origin:10% 70%;
+    }
+    100%{
+        transform: rotate(360deg) translateX(0px);
+        transform-origin: 20% 70%;
+    }
+}
+.minutes{
+    height:35%;
+    width:10%;
+    position:absolute;
+    top:25%;
+    left:48%;
+    animation-name: animation2;
+    animation-duration: 200s;
+    animation-delay: 2s;
+
+}
+@keyframes animation2{
+    0%{
+        transform: rotatex(0deg) translateX(0px);
+        transform-origin:10% 70%;
+    }
+    100%{
+        transform: rotate(360deg) translateX(0px);
+        transform-origin: 20% 70%;
+    }
+}*/

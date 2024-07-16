@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   row-gap: 5%;
+   /* background-image: linear-gradient(to right,#FFC7ED,#96C9F4,#FFC7ED); */
+   background-image: url("https://t4.ftcdn.net/jpg/06/06/87/63/360_F_606876358_NU2hCq3RP7xDpXG6PWnAMGGAun0fB5tW.jpg");
+   background-size: 100% 100%;
+    
+}
+table,tr,td{
+    /* border:1px solid #DC0083; */
+    border:5px solid #1679AB;
+    border-radius: 10px;
+}
+table{
+    height: fit-content;
+    width: fit-content;
+    border-collapse: collapse;
+    border-radius: 10px;
+    
+}
+td{
+    height:100px;
+    width:100px;
+    position: relative;
+}
+.block{
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-clown-fish-cartoon-illustration_23-2150683251.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1719273600&semt=ais_user');
+    background-size: 100% 100%;
+    width:100%;
+    height:100%;
+    /* position: absolute;
+    top: 15px;
+    left: 15px; */
+}
+
+#div1{
+    display: flex;
+    column-gap: 30px; 
+    /* position: relative;
+    top:40%;
+    right:27%; */
+    justify-content: center;
+    
+}
+#val1,#val2,#val3,#val4{
+    background-color:#77E4C8;
+    height:50px;
+    width:80px;
+    border:2px solid #0F67B1;
+    color: #0F67B1;
+    font-weight: bold;
+    box-shadow: 2px 2px #36C2CE;
+}
+#val1:hover,#val2:hover,#val3:hover,#val4:hover{
+    color:#77E4C8;
+    background-color: #0F67B1;
+}
+#click{
+    height:10%;
+    width:15%;
+    background-color: #77E4C8;
+    font-weight: bold;
+    font-size: 30px;
+    color:#0F67B1;
+    border:2px solid #0F67B1;
+}
+#click:hover{
+    background-color: #0F67B1;
+    color:#77E4C8;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+#val5{
+    height:15%;
+    width:10%;
+    position: relative;
+    left:30%;
+    bottom:60%;
+    border-radius: 10px;
+    border:5px solid #0F67B1;
+
+}
+
+#val6{
+    height:40%;
+    width:100%;
+    background-color: #77E4C8;
+    border-bottom: 3px solid #0F67B1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0F67B1;
+}
+
+#val7{
+    height:60%;
+    width:100%;
+    background-color: #36C2CE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #0F67B1;
+}
+
+#val8{
+    height:30%;
+    width:30%;
+    z-index: 9999;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#val9{
+    height:120%;
+    width:100%;
+    background-color: red;
+    opacity: 0.7;
+    position: absolute;
+}

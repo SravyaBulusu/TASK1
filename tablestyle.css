@@ -1,0 +1,32 @@
+table,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+/*table:first-child
+{
+    background-color: red;
+}*/
+
+tr:first-child{
+    background-color: aqua;
+}
+tr:hover{
+    background-color: palevioletred;
+}
+
+/*tr:nth-child(2){
+    background-color: aquamarine;
+}
+
+tr:nth-child(3){
+    background-color: cadetblue;
+}
+
+tr:last-child{
+    background-color: chartreuse;
+}*/
+
+/*tr:nth-child(even){
+    background-color:blue;
+}*/
